@@ -1,0 +1,26 @@
+"D:\Program Files\Python313\python.exe" C:\Users\meyur\Desktop\CAD-Unet\3.3d_lung_reconstruction.py
+Using device: cuda
+Loaded model from: ./saved_models/lung_model.pt
+Loaded test data: Original size (HxW)=630x630, Slice count=93
+Test data preprocessed: Resized to 224x224
+Predicting slices: 100%|██████████| 12/12 [00:01<00:00, 10.00it/s]
+Predictions post-processed: Restored to original size 630x630
+Reconstructed 3D mask: Shape (630, 630, 93), Volume 2709350 voxels
+Mask value range: 0 ~ 1
+Non-zero voxel positions: [[255 223  47]
+ [256 202  42]
+ [256 202  43]
+ [256 203  42]
+ [256 203  43]]
+Original resolution Dice score: 0.9709
+Lung center voxel coordinates: [385 317  48] (z, y, x)
+Original voxel spacing (x, y, z): (np.float32(0.683594), np.float32(0.683594), np.float32(4.0))
+Lung center physical coordinates (mm): [  32.81  216.7  1540.  ]
+Original point cloud: 2709350 points
+Downsampled point cloud: 27093 points (retained 1.00%)
+自动保存视图至: ./prediction_results\auto_saved_view.png
+Point cloud data saved to: ./prediction_results\lung_point_cloud.npy
+Prediction saved to: ./prediction_results\predicted_lung_mask.nii.gz
+Prediction and reconstruction completed!
+
+进程已结束，退出代码为 0

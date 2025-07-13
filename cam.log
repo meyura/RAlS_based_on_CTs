@@ -1,0 +1,29 @@
+"D:\Program Files\Python313\python.exe" C:\Users\meyur\Desktop\CAD-Unet\4.cam_view.py
+Loaded lung center from ./prediction_results/lung_center_physical.txt: [  32.81  216.7  1540.  ]
+Loaded 3D mask: shape (630, 630, 93), voxel spacing (np.float32(0.683594), np.float32(0.683594), np.float32(4.0))
+Original point count: 2709350
+Downsampled point count: 27093
+Warning: 无法找到满足条件的点，选择2D距离最远的点 20514
+
+相机内参 K:
+ [[1000.      0.     46.35]
+ [   0.   1000.    308.75]
+ [   0.      0.      1.  ]]
+旋转矩阵 R:
+ [[ 9.997e-01  4.000e-04 -2.330e-02]
+ [-4.200e-03  9.867e-01 -1.627e-01]
+ [ 2.290e-02  1.628e-01  9.864e-01]]
+平移向量 t:
+ [ -1.36   3.64 -31.37]
+畸变系数:
+ [ 0.01 -0.01  0.    0.    0.  ]
+
+中心点3D坐标: [  32.81  216.7  1540.  ] mm
+中心点2D投影坐标: [ 43.47 286.9 ] px
+反投影的中心点3D坐标: [  33.14  219.   1556.13] mm
+3D反投影误差: 16.30 mm
+C:\Users\meyur\Desktop\CAD-Unet\4.cam_view.py:169: UserWarning: You passed a edgecolor/edgecolors ('black') for an unfilled marker ('x').  Matplotlib is ignoring the edgecolor in favor of the facecolor.  This behavior may change in the future.
+  plt.scatter(predicted_2d[0], predicted_2d[1], c='purple', s=120,
+可视化结果已保存至: ./point_cloud_results
+
+进程已结束，退出代码为 0

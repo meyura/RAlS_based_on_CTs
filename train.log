@@ -1,0 +1,520 @@
+"D:\Program Files\Python313\python.exe" C:\Users\meyur\Desktop\CAD-Unet\model_train.py
+总样本数: 515（仅用于肺部分割）
+总样本数: 221（仅用于肺部分割）
+
+Epoch 1/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.93it/s, loss=0.889, lung_dice=0.427]
+Train Loss: 0.8889 | Lung Dice: 0.4267
+Val Loss: 0.7255 | Val Lung Dice: 0.4775
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.4775）
+
+Epoch 2/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.67, lung_dice=0.505]
+Train Loss: 0.6698 | Lung Dice: 0.5049
+Val Loss: 0.5787 | Val Lung Dice: 0.5543
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.5543）
+
+Epoch 3/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.606, lung_dice=0.54]
+Train Loss: 0.6059 | Lung Dice: 0.5404
+Val Loss: 0.5369 | Val Lung Dice: 0.5744
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.5744）
+
+Epoch 4/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.537, lung_dice=0.574]
+Train Loss: 0.5368 | Lung Dice: 0.5736
+Val Loss: 0.4755 | Val Lung Dice: 0.6136
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.6136）
+
+Epoch 5/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.491, lung_dice=0.601]
+Train Loss: 0.4907 | Lung Dice: 0.6012
+Val Loss: 0.4479 | Val Lung Dice: 0.6304
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.6304）
+
+Epoch 6/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.456, lung_dice=0.626]
+Train Loss: 0.4561 | Lung Dice: 0.6259
+Val Loss: 0.4089 | Val Lung Dice: 0.6552
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.6552）
+
+Epoch 7/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.42, lung_dice=0.649]
+Train Loss: 0.4195 | Lung Dice: 0.6493
+Val Loss: 0.3727 | Val Lung Dice: 0.6811
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.6811）
+
+Epoch 8/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.97it/s, loss=0.433, lung_dice=0.654]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.4330 | Lung Dice: 0.6536
+Val Loss: 1.4085 | Val Lung Dice: 0.4522
+
+Epoch 9/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.394, lung_dice=0.672]
+Train Loss: 0.3943 | Lung Dice: 0.6724
+Val Loss: 0.3505 | Val Lung Dice: 0.7014
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7014）
+
+Epoch 10/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.368, lung_dice=0.689]
+Train Loss: 0.3675 | Lung Dice: 0.6893
+Val Loss: 0.3360 | Val Lung Dice: 0.7186
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7186）
+
+Epoch 11/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.344, lung_dice=0.708]
+Train Loss: 0.3437 | Lung Dice: 0.7076
+Val Loss: 0.3061 | Val Lung Dice: 0.7342
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7342）
+
+Epoch 12/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.331, lung_dice=0.717]
+Train Loss: 0.3310 | Lung Dice: 0.7170
+Val Loss: 0.2901 | Val Lung Dice: 0.7479
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7479）
+
+Epoch 13/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.324, lung_dice=0.724]
+Train Loss: 0.3240 | Lung Dice: 0.7240
+Val Loss: 0.2846 | Val Lung Dice: 0.7535
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7535）
+
+Epoch 14/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.307, lung_dice=0.735]
+Train Loss: 0.3074 | Lung Dice: 0.7349
+Val Loss: 0.2690 | Val Lung Dice: 0.7641
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7641）
+
+Epoch 15/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.296, lung_dice=0.744]
+Train Loss: 0.2961 | Lung Dice: 0.7438
+Val Loss: 0.2623 | Val Lung Dice: 0.7693
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7693）
+
+Epoch 16/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.294, lung_dice=0.746]
+Train Loss: 0.2938 | Lung Dice: 0.7463
+Val Loss: 0.2517 | Val Lung Dice: 0.7806
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7806）
+
+Epoch 17/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.33, lung_dice=0.735]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.3299 | Lung Dice: 0.7346
+Val Loss: 0.2868 | Val Lung Dice: 0.7622
+
+Epoch 18/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.291, lung_dice=0.751]
+Train Loss: 0.2909 | Lung Dice: 0.7510
+Val Loss: 0.2465 | Val Lung Dice: 0.7852
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7852）
+
+Epoch 19/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.28, lung_dice=0.76]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2803 | Lung Dice: 0.7598
+Val Loss: 0.2508 | Val Lung Dice: 0.7851
+
+Epoch 20/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.279, lung_dice=0.762]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2786 | Lung Dice: 0.7620
+Val Loss: 0.2603 | Val Lung Dice: 0.7795
+
+Epoch 21/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.269, lung_dice=0.768]
+Train Loss: 0.2688 | Lung Dice: 0.7681
+Val Loss: 0.2338 | Val Lung Dice: 0.7945
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7945）
+
+Epoch 22/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.266, lung_dice=0.769]
+Train Loss: 0.2663 | Lung Dice: 0.7693
+Val Loss: 0.2396 | Val Lung Dice: 0.7906
+
+Epoch 23/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.264, lung_dice=0.774]
+Train Loss: 0.2638 | Lung Dice: 0.7745
+Val Loss: 0.2256 | Val Lung Dice: 0.7997
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.7997）
+
+Epoch 24/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.26, lung_dice=0.775]
+Train Loss: 0.2597 | Lung Dice: 0.7750
+Val Loss: 0.2240 | Val Lung Dice: 0.8070
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8070）
+
+Epoch 25/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.253, lung_dice=0.781]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2529 | Lung Dice: 0.7808
+Val Loss: 0.2245 | Val Lung Dice: 0.8024
+
+Epoch 26/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.98it/s, loss=0.259, lung_dice=0.776]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2594 | Lung Dice: 0.7763
+Val Loss: 0.2354 | Val Lung Dice: 0.7948
+
+Epoch 27/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.251, lung_dice=0.783]
+Train Loss: 0.2514 | Lung Dice: 0.7835
+Val Loss: 0.2148 | Val Lung Dice: 0.8129
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8129）
+
+Epoch 28/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.246, lung_dice=0.787]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2456 | Lung Dice: 0.7870
+Val Loss: 0.2201 | Val Lung Dice: 0.8096
+
+Epoch 29/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.243, lung_dice=0.788]
+Train Loss: 0.2434 | Lung Dice: 0.7877
+Val Loss: 0.2085 | Val Lung Dice: 0.8193
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8193）
+
+Epoch 30/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.241, lung_dice=0.791]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2410 | Lung Dice: 0.7911
+Val Loss: 0.2113 | Val Lung Dice: 0.8165
+
+Epoch 31/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.98it/s, loss=0.237, lung_dice=0.792]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2372 | Lung Dice: 0.7919
+Val Loss: 0.2071 | Val Lung Dice: 0.8189
+
+Epoch 32/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.93it/s, loss=0.234, lung_dice=0.796]
+Train Loss: 0.2337 | Lung Dice: 0.7956
+Val Loss: 0.1993 | Val Lung Dice: 0.8236
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8236）
+
+Epoch 33/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.232, lung_dice=0.797]
+Train Loss: 0.2323 | Lung Dice: 0.7969
+Val Loss: 0.1953 | Val Lung Dice: 0.8269
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8269）
+
+Epoch 34/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.97it/s, loss=0.241, lung_dice=0.79]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2413 | Lung Dice: 0.7898
+Val Loss: 0.2059 | Val Lung Dice: 0.8176
+
+Epoch 35/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.256, lung_dice=0.788]
+Train Loss: 0.2560 | Lung Dice: 0.7881
+Val Loss: 0.2062 | Val Lung Dice: 0.8231
+
+Epoch 36/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.252, lung_dice=0.787]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2519 | Lung Dice: 0.7873
+Val Loss: 0.2052 | Val Lung Dice: 0.8198
+
+Epoch 37/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.258, lung_dice=0.785]
+Train Loss: 0.2578 | Lung Dice: 0.7847
+Val Loss: 0.8816 | Val Lung Dice: 0.5620
+
+Epoch 38/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.274, lung_dice=0.777]
+Train Loss: 0.2735 | Lung Dice: 0.7770
+Val Loss: 0.2296 | Val Lung Dice: 0.8025
+
+Epoch 39/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.251, lung_dice=0.788]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2508 | Lung Dice: 0.7884
+Val Loss: 0.2317 | Val Lung Dice: 0.8000
+
+Epoch 40/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.236, lung_dice=0.797]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2360 | Lung Dice: 0.7974
+Val Loss: 0.2044 | Val Lung Dice: 0.8212
+
+Epoch 41/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.237, lung_dice=0.796]
+Train Loss: 0.2370 | Lung Dice: 0.7957
+Val Loss: 0.1973 | Val Lung Dice: 0.8266
+
+Epoch 42/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.228, lung_dice=0.803]
+Train Loss: 0.2279 | Lung Dice: 0.8027
+Val Loss: 0.1952 | Val Lung Dice: 0.8288
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8288）
+
+Epoch 43/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.233, lung_dice=0.796]
+Train Loss: 0.2333 | Lung Dice: 0.7962
+Val Loss: 0.1951 | Val Lung Dice: 0.8281
+
+Epoch 44/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.229, lung_dice=0.8]
+Train Loss: 0.2290 | Lung Dice: 0.8005
+Val Loss: 0.1952 | Val Lung Dice: 0.8285
+
+Epoch 45/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.226, lung_dice=0.804]
+Train Loss: 0.2260 | Lung Dice: 0.8036
+Val Loss: 0.1948 | Val Lung Dice: 0.8294
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8294）
+
+Epoch 46/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.226, lung_dice=0.803]
+Train Loss: 0.2258 | Lung Dice: 0.8035
+Val Loss: 0.1945 | Val Lung Dice: 0.8297
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8297）
+
+Epoch 47/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.23, lung_dice=0.8]
+Train Loss: 0.2302 | Lung Dice: 0.7998
+Val Loss: 0.1942 | Val Lung Dice: 0.8298
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8298）
+
+Epoch 48/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.23, lung_dice=0.799]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2300 | Lung Dice: 0.7995
+Val Loss: 0.1956 | Val Lung Dice: 0.8288
+
+Epoch 49/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.226, lung_dice=0.804]
+Train Loss: 0.2265 | Lung Dice: 0.8041
+Val Loss: 0.1940 | Val Lung Dice: 0.8305
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8305）
+
+Epoch 50/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.225, lung_dice=0.804]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2248 | Lung Dice: 0.8040
+Val Loss: 0.1927 | Val Lung Dice: 0.8301
+
+Epoch 51/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.99it/s, loss=0.225, lung_dice=0.804]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2249 | Lung Dice: 0.8041
+Val Loss: 0.1939 | Val Lung Dice: 0.8299
+
+Epoch 52/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.248, lung_dice=0.795]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2482 | Lung Dice: 0.7951
+Val Loss: 0.1967 | Val Lung Dice: 0.8289
+
+Epoch 53/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.225, lung_dice=0.804]
+Train Loss: 0.2253 | Lung Dice: 0.8039
+Val Loss: 0.1967 | Val Lung Dice: 0.8296
+
+Epoch 54/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.225, lung_dice=0.805]
+Train Loss: 0.2248 | Lung Dice: 0.8046
+Val Loss: 0.1921 | Val Lung Dice: 0.8309
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8309）
+
+Epoch 55/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.225, lung_dice=0.804]
+Train Loss: 0.2253 | Lung Dice: 0.8044
+Val Loss: 0.1943 | Val Lung Dice: 0.8298
+
+Epoch 56/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.225, lung_dice=0.804]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2249 | Lung Dice: 0.8042
+Val Loss: 0.1940 | Val Lung Dice: 0.8306
+
+Epoch 57/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.225, lung_dice=0.805]
+Train Loss: 0.2246 | Lung Dice: 0.8047
+Val Loss: 0.1922 | Val Lung Dice: 0.8308
+
+Epoch 58/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.228, lung_dice=0.802]
+Train Loss: 0.2277 | Lung Dice: 0.8019
+Val Loss: 0.1920 | Val Lung Dice: 0.8315
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8315）
+
+Epoch 59/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.229, lung_dice=0.802]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2287 | Lung Dice: 0.8021
+Val Loss: 0.1950 | Val Lung Dice: 0.8304
+
+Epoch 60/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.97it/s, loss=0.224, lung_dice=0.805]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2240 | Lung Dice: 0.8048
+Val Loss: 0.1924 | Val Lung Dice: 0.8314
+
+Epoch 61/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.228, lung_dice=0.801]
+Train Loss: 0.2276 | Lung Dice: 0.8015
+Val Loss: 0.1914 | Val Lung Dice: 0.8323
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8323）
+
+Epoch 62/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.226, lung_dice=0.803]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2259 | Lung Dice: 0.8028
+Val Loss: 0.1918 | Val Lung Dice: 0.8320
+
+Epoch 63/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.224, lung_dice=0.805]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2236 | Lung Dice: 0.8050
+Val Loss: 0.1919 | Val Lung Dice: 0.8322
+
+Epoch 64/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.93it/s, loss=0.225, lung_dice=0.804]
+Train Loss: 0.2245 | Lung Dice: 0.8044
+Val Loss: 0.1912 | Val Lung Dice: 0.8323
+最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8323）
+
+Epoch 65/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.98it/s, loss=0.224, lung_dice=0.803]
+Train Loss: 0.2245 | Lung Dice: 0.8030
+Val Loss: 0.1915 | Val Lung Dice: 0.8318
+
+Epoch 66/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.223, lung_dice=0.806]
+Train Loss: 0.2230 | Lung Dice: 0.8059
+Val Loss: 0.1906 | Val Lung Dice: 0.8331
+Training:   0%|          | 0/65 [00:00<?, ?it/s]最佳肺部模型已保存至 ./saved_models\lung_model.pt（Dice: 0.8331）
+
+Epoch 67/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.225, lung_dice=0.805]
+Train Loss: 0.2252 | Lung Dice: 0.8051
+Val Loss: 0.1905 | Val Lung Dice: 0.8328
+
+Epoch 68/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  3.00it/s, loss=0.227, lung_dice=0.802]
+Train Loss: 0.2272 | Lung Dice: 0.8016
+Val Loss: 0.1914 | Val Lung Dice: 0.8321
+
+Epoch 69/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.221, lung_dice=0.807]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2211 | Lung Dice: 0.8065
+Val Loss: 0.1909 | Val Lung Dice: 0.8326
+
+Epoch 70/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:21<00:00,  2.96it/s, loss=0.226, lung_dice=0.803]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2257 | Lung Dice: 0.8027
+Val Loss: 0.1910 | Val Lung Dice: 0.8325
+
+Epoch 71/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.223, lung_dice=0.805]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2234 | Lung Dice: 0.8052
+Val Loss: 0.1910 | Val Lung Dice: 0.8327
+
+Epoch 72/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.226, lung_dice=0.804]
+Train Loss: 0.2255 | Lung Dice: 0.8042
+Val Loss: 0.1917 | Val Lung Dice: 0.8318
+
+Epoch 73/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.226, lung_dice=0.802]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2262 | Lung Dice: 0.8019
+Val Loss: 0.1904 | Val Lung Dice: 0.8329
+
+Epoch 74/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.92it/s, loss=0.224, lung_dice=0.804]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2241 | Lung Dice: 0.8043
+Val Loss: 0.1908 | Val Lung Dice: 0.8326
+
+Epoch 75/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.224, lung_dice=0.805]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2238 | Lung Dice: 0.8050
+Val Loss: 0.1908 | Val Lung Dice: 0.8325
+
+Epoch 76/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.224, lung_dice=0.805]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2238 | Lung Dice: 0.8050
+Val Loss: 0.1913 | Val Lung Dice: 0.8322
+
+Epoch 77/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.92it/s, loss=0.226, lung_dice=0.803]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2257 | Lung Dice: 0.8031
+Val Loss: 0.1916 | Val Lung Dice: 0.8320
+
+Epoch 78/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.95it/s, loss=0.225, lung_dice=0.802]
+Train Loss: 0.2250 | Lung Dice: 0.8024
+Val Loss: 0.1917 | Val Lung Dice: 0.8319
+
+Epoch 79/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.93it/s, loss=0.223, lung_dice=0.806]
+Training:   0%|          | 0/65 [00:00<?, ?it/s]Train Loss: 0.2232 | Lung Dice: 0.8057
+Val Loss: 0.1918 | Val Lung Dice: 0.8322
+
+Epoch 80/80
+--------------------------------------------------
+Training: 100%|██████████| 65/65 [00:22<00:00,  2.94it/s, loss=0.226, lung_dice=0.803]
+Train Loss: 0.2258 | Lung Dice: 0.8029
+Val Loss: 0.1919 | Val Lung Dice: 0.8320
+肺部训练曲线已保存至 lung_training_curves.png
+肺部分割模型训练完成！
+
+进程已结束，退出代码为 0

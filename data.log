@@ -1,0 +1,20 @@
+"D:\Program Files\Python313\python.exe" C:\Users\meyur\Desktop\CAD-Unet\1.data_process.py
+发现 9 个CT容积
+将最后一个容积 9.nii.gz 作为测试集
+剩余 8 个容积用于划分训练集和验证集
+预处理训练/验证集容积：1.nii.gz
+预处理训练/验证集容积：2.nii.gz
+预处理训练/验证集容积：3.nii.gz
+预处理训练/验证集容积：4.nii.gz
+预处理训练/验证集容积：5.nii.gz
+预处理训练/验证集容积：6.nii.gz
+预处理训练/验证集容积：7.nii.gz
+预处理训练/验证集容积：8.nii.gz
+训练/验证集总切片数：736，按 0.7:0.3 划分
+训练集保存至 ./processed_data/Training_data.pt，包含 515 个切片
+验证集保存至 ./processed_data/Validation_data.pt，包含 221 个切片
+处理测试集容积：9.nii.gz
+测试集保存至 ./processed_data/test_data.pt，包含 93 个切片
+数据处理完成
+
+进程已结束，退出代码为 0
